@@ -28,6 +28,7 @@ a {
     text-decoration: none;
     color: #f9faf8;
     font-weight: 300;
+    font-size: 18px;
 }
 
 ul {
@@ -43,3 +44,57 @@ nav {
 }
 
 /* Header */ 
+
+/* Hero Text */
+
+.placeholder {
+    height: 100px;
+    width: 300px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.hero-maintext {
+    font-size: 48px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.hero-subtext {
+    word-wrap: break-word;
+    width: 450px;
+    font-size: 18px;
+}
+
+.hero-text {
+    flex-shrink: 0;
+    color:#f9faf8;
+    width: 400px;
+    word-wrap: break-word;
+    white-space: normal
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #3882f6;
+    border-style: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 5px
+
+}
